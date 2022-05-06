@@ -3,9 +3,9 @@
 	padding: 0;
 }
 
-/*iv, p, img{
+div, p, img{
 	border: 1px solid red;
-}*/
+}
 
 body{
 	font-size: 1em;
@@ -21,7 +21,7 @@ span{
 
 #container{
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
