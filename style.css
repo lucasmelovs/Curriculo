@@ -30,10 +30,9 @@ span{
 
 #box{
 	margin: 10px;
-	margin-top: 50px;
+	padding: 100px;
 	text-align: center;
-	width: 600px;
-	height: 1300px;
+	align-items: center;
 }
 
 #area-perfil, #area-perfil h1{
@@ -59,9 +58,12 @@ span{
 }
 
 .information{
+	display: flex;
+	flex-direction: column;
 	margin: 10px;
 	margin-bottom: 50px;
 	margin-top: 50px;
+	align-items: center;
 }
 
 #name{
@@ -110,6 +112,7 @@ span{
 	border-radius: 50%;
 }
 .conteudo{
+	justify-content: center;
 	margin: 0 10px;
 	display: flex;
 	flex-direction: row;
@@ -151,10 +154,11 @@ span{
 }
 
 .skills{
+	align-items: center;
 	font-weight: lighter;
 }
-.skills p{
-	margin: 10px 150px;
+.skills p {
+	width: 400px;
 	background-color: #1D1C4B;
 	border-radius: 10px;
 	transition:all 0.5s ease;
@@ -170,6 +174,18 @@ span{
    -moz-box-shadow: 0px 0px 20px #47468D;
 	opacity: 1;
 }
+.descricao p{
+	opacity: 0.2;
+	background-color: transparent;
+
+}
+.descricao p:hover{
+	opacity: 0.2;
+	box-shadow: none;
+	transform: none;
+	background-color: transparent;
+}
+
 
 #container-rodape {
 	margin-top: 50px;
